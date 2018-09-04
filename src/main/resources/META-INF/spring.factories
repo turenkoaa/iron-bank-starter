@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.db.iron_bank_starter.conf.Conf
+org.springframework.context.ApplicationContextInitializer = com.db.iron_bank_starter.profiles.ProfileCheckerAppContextInitializer
+org.springframework.boot.env.EnvironmentPostProcessor = com.db.iron_bank_starter.profiles.AutoProfileDetectorEnvironmentPostProcessor
